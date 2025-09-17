@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontawesome7}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=cyan
+}
+
+\title{FontAwesome 7 LaTeX Package Example}
+\author{Auto-generated}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+You can get all free icons from \href{https://fontawesome.com/search?ic=free}{https://fontawesome.com/search?ic=free}
+
+
+\section{Basic Usage}
+
+Here are some basic icons:
+\begin{itemize}
+    \item \far{house} House
+    \item \far{user} User  
+    \item \far{envelope} Email
+    \item \fas{phone} Phone (The free plan does not include the regular phone icon)
+    \item \far{calendar} Calendar
+\end{itemize}
+
+\section{Different Styles}
+
+\begin{itemize}
+    \item Regular: \far{star} \far{heart} \far{cloud}
+    \item Solid: \fas{star} \fas{heart} \fas{cloud}
+    \item Brands: \fab{github} \fab{twitter} \fab{linkedin}
+\end{itemize}
+
+\section{Colored Icons}
+
+\begin{itemize}
+    \item Regular: \textcolor{red}{\far{heart}} \textcolor{blue}{\far{star}} \textcolor{green}{\far{cloud}}
+    \item Solid: \textcolor{red}{\far{heart}} \textcolor{blue}{\far{star}} \textcolor{green}{\far{cloud}}
+    \item Brands: \textcolor{red}{\fab{github}} \textcolor{blue}{\fab{twitter}} \textcolor{green}{\fab{linkedin}}
+\end{itemize}
+
+\section{Contact Information Example}
+
+\begin{tabular}{ll}
+\far{envelope} & example@gmail.com \\
+\fas{phone} & +1 (555) 123-4567 \\
+\far{house} & 123 Main St, City, State \\
+\fab{github} & github.com/example \\
+\fab{linkedin} & linkedin.com/in/example \\
+\end{tabular}
+
+\end{document}
