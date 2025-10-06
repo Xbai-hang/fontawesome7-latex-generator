@@ -1,6 +1,6 @@
-# FontAwesome 7.0.1 LaTeX Package
+# FontAwesome 7.1.0 LaTeX Package
 
-Auto-generated LaTeX package for FontAwesome 7.0.1 with 2089 icons.
+Auto-generated LaTeX package for FontAwesome 7.1.0 with 2089 icons.
 
 ## Installation
 
@@ -44,4 +44,4 @@ lualatex example.tex
 - `example.tex` - Example document
 - `README.md` - This file
 
-Generated on: 2025-09-17 21:59:27
+Generated on: 2025-10-06 12:10:40

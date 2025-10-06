@@ -1,5 +1,5 @@
 # FontAwesome 7 LaTeX Package Makefile
-# Auto-generated on 2025-09-17 21:59:27
+# Auto-generated on 2025-10-06 12:10:40
 
 STY_FILE = fontawesome7.sty
 FONT_FILES := $(wildcard fonts/*)
